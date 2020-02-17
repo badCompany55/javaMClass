@@ -63,6 +63,7 @@ public class StockItem implements Comparable<StockItem> {
 
   @Override
   public int compareTo(StockItem i) {
+    // System.out.println("Entering compareTo.");
     if(this == i) {
       return 0;
     }
